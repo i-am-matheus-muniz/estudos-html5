@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Página Inicial</title>
+    </head>
+
+    <body>
+
+        <a href="index.html">Página Inicial</a>
+        /
+        <a href="contato.html">Contato</a>
+        /
+        <a href="https://www.google.com/">Dúvidas?</a>
+        /
+        <a href="projeto.html">Tutorial</a>
+        
+        <!--Formulários-->
+        <h2>Login</h2>
+
+        <form>
+
+            Login:<br>
+            <input type="text" name="login"><br>
+            
+            Senha:<br>
+            <input type="password" name="senha"><br>
+
+            <input type="submit" value="Entrar">
+
+        </form>
+
+        <h2>Cadastre-se</h2>
+        
+        <form>
+            Login:<br>
+            <input type="text" name="loginCadastro"><br>
+
+            Sexo:<br>
+            <input type="radio" name="sexo" value="M"> Masculino <br>
+            <input type="radio" name="sexo" value="F"> Feminino <br> <br>
+
+            Interesses:<br>
+            <input type="checkbox" name="interesses"> Futebol <br>
+            <input type="checkbox" name="interesses"> Games <br>
+            <input type="checkbox" name="interesses"> Cursos <br><br>
+
+            Estado:<br>
+            <select name="estado">
+                <option value="sp">SP</option>
+                <option value="rj">RJ</option>
+            </select> <br>
+
+            Observações: <br>
+            <textarea></textarea><br>
+            <input type="submit" name="cadastrar" value="Cadastrar"> <!--Diferença do Button para Submit é que o Submit envia os dados para outra página, por exemplo. Será utilizado para fazer o procedimento do back end-->
+
+        </form>
+        <br>
+        <hr>
+        <!--Tabelas-->
+        <h2>Tabelinha massa</h2>
+        <table border="2" width="350">
+            <tr> <!--Table Row-->
+                <th>Código</th> <!--Table Header-->
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+
+            <tr>
+                <td>001</td>    <!--Table data-->
+                <td>Notebook Samsung x50</td>
+                <td>R$ 3.000,00</td>
+            </tr>
+
+            <tr>
+                <td>002</td>
+                <td>Mouse Dell wireless</td>
+                <td>R$ 50,00</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Desconto</td>
+                <td colspan="2">CupomEmCasa R$ -10,00</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Cupom2 R$ -20,00</td>
+            </tr>
+
+            <tr>
+                <td>Total</td>
+                <td colspan="2">R$ 3020,00</td>
+            </tr>
+
+        </table>
+
+        <br>
+        <hr>
+
+        <h2>Carácteres especiais</h2>
+        <a href="https://www.w3schools.com/html/html_entities.asp">Acesse a lista de caracteres aqui</a>
+        
+        <br><br>
+        
+        &ltp&gt
+
+    </body>
+
+</html>
